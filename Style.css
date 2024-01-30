@@ -1,0 +1,14 @@
+.one{
+    width: 600px;
+    height: 100px;
+    background-color: darkviolet;
+    border: 1px solid black;
+    float: left;
+}
+.two{
+    width: 600px;
+    height: 100px;
+    background-color: magenta;
+    border: 1px solid black;
+    float: left;
+}
