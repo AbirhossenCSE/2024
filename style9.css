@@ -63,6 +63,11 @@
     position: absolute;
     top: 200px;
     right: 200px;
+
+
+    -webkit-box-shadow: 9px 10px 38px 4px rgba(153,150,153,0.86);
+    -moz-box-shadow: 9px 10px 38px 4px rgba(153,150,153,0.86);
+    box-shadow: 9px 10px 38px 4px rgba(153,150,153,0.86);
 }
 
 
@@ -73,14 +78,18 @@
     margin: 30px auto;
 
     position: relative;
+
+    box-shadow: 10px 10px 10px 5px #545353;
 }
 .smallbox{
     width: 50px;
     height: 50px;
-    background: #a83131;
+    background: #f1c6c6;
 
     position: absolute;
     /* left: 175px; */
+    top: -25px;
+     
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) rotate(45deg);
 }
