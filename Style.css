@@ -1,14 +1,42 @@
+.clr{
+    clear: both;
+}
+
+
+
 .one{
-    width: 600px;
+    width: 400px;
     height: 100px;
-    background-color: darkviolet;
-    border: 1px solid black;
     float: left;
+    background-color: lightpink;
+
+
+    
+    /* border-left-width: 10px;
+    border-left-color: black;
+    border-left-style: solid; */
+    border: 10px solid black;
+
+    /* margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    margin-right: 20px; */
+
+    /* margin: 50px 40px 30px 100px; */
 }
 .two{
-    width: 600px;
+    width: 400px;
     height: 100px;
-    background-color: magenta;
-    border: 1px solid black;
     float: left;
+    background-color: lightblue;
+    border: 10px solid rgb(150, 138, 138);
+
+    /* margin: 50px 40px 30px 100px; */
+    
+}
+
+.three{
+    width: 900px;
+    height: 150px;
+    background-color: orangered;
 }
