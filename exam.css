@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clr{
+    clear: both;
+}
+
+.header_bg{
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+}
+.header_bg .header{
+    width: 960px;
+    height: 80px;
+    background-color: rgb(130, 50, 50);
+    margin: 0 auto;
+}
+
+.header_bg .header .contact{
+    width: 200px;
+    height: 80px;
+    background-color: aqua;
+    float: left;
+}
+.header_bg .header .contact img{
+    width: 100%;
+    height: 100%;
+}
+
+.header_bg .header .social{
+    width: 760px;
+    height: 80px;
+    background-color: rgb(50, 167, 69);
+    float: left;
+}
+.header_bg .header .social p{
+    line-height: 80px;
+    text-align: right;
+    color: white;
+}
+
+
+
+
+
+
+
+.content_bg{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(117, 47, 42);
+    
+}
+
+.content_bg .content_item{
+    width: 960px;
+    height: 500px;
+    background-color: rgb(183, 183, 130);
+    margin: 0 auto;
+
+    padding-top: 100px;
+    box-sizing: border-box;
+
+}
+
+.content_bg .content_item .item{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    border: 1px solid black;
+    /* float: left; */
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.content_bg .content_item .item img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.content_bg .content_item .item .overlay{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(151, 153, 153, 0.514);
+    position: absolute;
+    left: -100%;
+    top: 0;
+    opacity: 0;
+
+    transition: all linear .5s;
+    
+}
+
+.content_bg .content_item .item:hover .overlay{
+    left: 0;
+    opacity: 1;
+}
